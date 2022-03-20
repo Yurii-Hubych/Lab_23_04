@@ -1,0 +1,22 @@
+{
+  "name": "lab_23_04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yurii-Hubych/Lab_23_04.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yurii-Hubych/Lab_23_04/issues"
+  },
+  "homepage": "https://github.com/Yurii-Hubych/Lab_23_04#readme",
+  "dependencies": {
+    "custom_module": "file:custom_module"
+  }
+}
