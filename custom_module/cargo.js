@@ -16,7 +16,7 @@ function remove_cargo (name, planet) {
 
     let cargo = find_cargo(name, planet);
 
-    if (station === -1) { return -1; }
+    if (cargo === -1) { return -1; }
 
     let id = planet.cargo.indexOf(cargo);
     planet.cargo.splice(id, 1);

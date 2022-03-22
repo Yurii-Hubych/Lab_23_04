@@ -20,4 +20,5 @@ console.log(mod.add_cargo('cargo 1', p2));
 console.log(mod.add_cargo('cargo 2', p2));
 console.log(mod.add_cargo('cargo 3', p2));
 mod.get_cargos(p2);
+console.log(mod.find_cargo('cargo 1', p2))
 
